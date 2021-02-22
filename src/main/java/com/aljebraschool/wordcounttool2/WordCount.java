@@ -108,7 +108,7 @@ public class WordCount extends javax.swing.JFrame {
                         .addComponent(exitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(countButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 364, Short.MAX_VALUE))
-                .addContainerGap(122, Short.MAX_VALUE))
+                .addContainerGap(536, Short.MAX_VALUE))
         );
         wordCountPanelLayout.setVerticalGroup(
             wordCountPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -148,6 +148,7 @@ public class WordCount extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     //an event handler method used to count the number of texts in sentences
